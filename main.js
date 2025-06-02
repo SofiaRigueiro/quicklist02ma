@@ -11,4 +11,6 @@ function addItem() {
     items.push(item)
 
     console.log(items)
+
+    document.querySelector("#item").value = ""
 }
